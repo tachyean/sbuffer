@@ -24,7 +24,7 @@ Mark "v1" as deleted
 Read "v1" buffer after
 
     console.log(sb.read('v1'));/*print: undefined*/
-### Referece method
+### Reference method
 Allocate 100 total memory, where 100/5 or 20 bytes are for garbage use
 
     var sb=new SBuffer(100,5);

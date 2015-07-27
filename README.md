@@ -7,7 +7,7 @@ Include SBuffer class
 
     var SBuffer=require('sbuffer');
 ### Name method
-Allocate 100 total memory, where 100/3 or 33 bytes are for garbage use
+Allocate 100 bytes total memory, where 100/3 or 33 bytes are for garbage use
 
     var sb=new SBuffer(100,3);
 Write string "test" named "v1"
@@ -25,7 +25,7 @@ Read "v1" buffer after
 
     console.log(sb.read('v1'));/*print: undefined*/
 ### Reference method
-Allocate 100 total memory, where 100/5 or 20 bytes are for garbage use
+Allocate 100 bytes total memory, where 100/5 or 20 bytes are for garbage use
 
     var sb=new SBuffer(100,5);
 Write string "test", and store the reference into v1 variable

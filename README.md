@@ -14,5 +14,5 @@ Example:
     console.log(sb.read('v1').toString());
     /*mark "v1" deleted*/
     sb.delete('v1');
-    /*print: null*/
+    /*print: undefined*/
     console.log(sb.read('v1'));
